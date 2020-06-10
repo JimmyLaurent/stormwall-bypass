@@ -23,7 +23,7 @@ const { isProtectedByStormwall, getStormwallCookie } = require('stormwall');
 		if (isProtectedByStormwall(response.data)) {
 			const jar = new CookieJar();
 			const cookie = getStormwallCookie(response.data);
-      jar.setCookieSync(cookie, url);
+			jar.setCookieSync(cookie, url);
       
 			response = await axios.get(url, {
 				headers: {
