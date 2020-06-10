@@ -1,10 +1,10 @@
 {
   "name": "stormwall-bypass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to help bypass stormwall protected websites",
   "repository": {
     "type": "git",
-    "url": "git://github.com/JimmyLaurent/stormwall.git"
+    "url": "git://github.com/JimmyLaurent/stormwall-bypass.git"
   },
   "author": "Jimmy Laurent",
   "main": "index.js",
