@@ -1,0 +1,21 @@
+{
+  "name": "stormwall",
+  "version": "1.0.0",
+  "description": "A library to help bypass stormwall protected websites",
+  "author": "Jimmy Laurent",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "stormwall",
+    "bypass",
+    "anti-bot"
+  ],
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "parser": "flow",
+    "semi": true,
+    "tabWidth": 2
+  }
+}
