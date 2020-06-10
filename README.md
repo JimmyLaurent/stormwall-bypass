@@ -39,6 +39,7 @@ const { isProtectedByStormwall, getStormwallCookie } = require('stormwall');
 ```
 
 > **NOTE:** Keep your stormwall cookie to avoid ban
+>
 > Keep your stormwall cookie to reuse it otherwise you'll get blocked by stormwall.
 
 # API
