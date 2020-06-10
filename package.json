@@ -2,6 +2,10 @@
   "name": "stormwall",
   "version": "1.0.0",
   "description": "A library to help bypass stormwall protected websites",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JimmyLaurent/stormwall.git"
+  },
   "author": "Jimmy Laurent",
   "main": "index.js",
   "license": "MIT",
