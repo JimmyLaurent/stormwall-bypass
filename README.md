@@ -17,9 +17,9 @@ const { isProtectedByStormwall, getStormwallCookie } = require('stormwall');
 
 (async () => {
 	try {
-    const url = 'https://stormwall-protected-url.com';
-    let response = await axios.get(url);
-    
+		const url = 'https://stormwall-protected-url.com';
+		let response = await axios.get(url);
+
 		if (isProtectedByStormwall(response.data)) {
 			const jar = new CookieJar();
 			const cookie = getStormwallCookie(response.data);
