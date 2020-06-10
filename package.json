@@ -1,5 +1,5 @@
 {
-  "name": "stormwall",
+  "name": "stormwall-bypass",
   "version": "1.0.0",
   "description": "A library to help bypass stormwall protected websites",
   "repository": {
