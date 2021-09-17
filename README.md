@@ -1,11 +1,11 @@
-# stormwall
+# stormwall-bypass
 
 A library to help bypass stormwall protected websites.
 
 ## Install
 
 ```bash
-npm install stormwall
+npm install stormwall-bypass
 ```
 
 ## Quick Example
@@ -13,7 +13,7 @@ npm install stormwall
 ```js
 const axios = require('axios');
 const { CookieJar } = require('tough-cookie');
-const { isProtectedByStormwall, getStormwallCookie } = require('stormwall');
+const { isProtectedByStormwall, getStormwallCookie } = require('stormwall-bypass');
 
 (async () => {
   try {
@@ -45,7 +45,7 @@ const { isProtectedByStormwall, getStormwallCookie } = require('stormwall');
 ### isProtectedByStormwall
 
 ```js
-const { isProtectedByStormwall } = require('stormwall');
+const { isProtectedByStormwall } = require('stormwall-bypass');
 
 const url = 'https://stormwall-protected-url.com';
 const { data: body } = await axios.get(url);
@@ -58,7 +58,7 @@ console.log(isProtected);
 ### getStormwallCookie
 
 ```js
-const { getStormwallCookie } = require('stormwall');
+const { getStormwallCookie } = require('stormwall-bypass');
 
 const url = 'https://stormwall-protected-url.com';
 const { data: body } = await axios.get(url);
